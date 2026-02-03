@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Update Employee</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='style.css')}}">
+</head>
+<body>
+    <form action="/update" method="post">
+        Enter Employee ID : <input type="number" name="id" placeholder="Employee ID"><br><br>
+        <input type="Submit" value="Add">
+        <a href="/dashboard">Click here to Dashboard Page</a>
+    </form>
+</body>
+</html>

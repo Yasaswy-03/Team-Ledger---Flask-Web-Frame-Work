@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Credentials Update</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='style.css')}}">
+</head>
+<body>
+    <form action="/password" method="post">
+        Enter Employee ID : <input type="number" name="id" placeholder="Employee ID "><br><br>
+        Enter Password : <input type="password" name="password" placeholder="Enter password"><br><br>
+        Re-Enter Password : <input type="password" name="confirm" placeholder="Confirm Password"><br><br>
+        <input type="submit" value="submit"><br><br>
+        <a href="/dummy">Back to Login</a>
+    </form>
+</body>
+</html>

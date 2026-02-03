@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='style.css')}}">
+</head>
+<body>
+    <h1>Employee Management System - Registeration Form</h1>
+    <form action="/register" method="post">
+
+        Enter Employee ID : <input type="number" name="id" placeholder="Employee ID"><br><br>
+        Enter Name : <input type="text" name="name" placeholder="Employee Name"><br><br>
+        Enter Phone Number : <input type="text" name="number" placeholder="Phone Number"><br><br>
+        Enter City : <input type="text" name="city" placeholder="City"><br><br>
+        Enter Password : <input type="password" name="password" placeholder="Enter Password"><br><br>
+        Confirm Password : <input type="password" name="confirm" placeholder="Confirm Password"><br><br>
+        <input type="Submit" value="Submit">
+
+    </form>
+</body>
+</html>
